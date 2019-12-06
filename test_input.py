@@ -1,2 +1,6 @@
-numero_del_usuario = input("dime un numero")
-print(numero_del_usuario)
+primer_numero = int(input("elegi un numero"))
+segundo_num = int(input("elegi otro numero"))
+tercer_num = int(input("elegi el tercer numero"))
+cuarto_num = int(input("elegi el cuarto numero"))
+resultado = max(primer_numero, segundo_num, tercer_num, cuarto_num)
+print ("el numero mas grande de los 4 es {}".format (resultado))
